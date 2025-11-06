@@ -1,58 +1,52 @@
-# Online Learning Platform - Flask
+# 🎓 Online Learning Platform (Flask)
 
-A fully-featured **Online Learning Platform** built using **Flask (Python)**, **MySQL**, and modern frontend technologies such as **HTML**, **CSS**, **Bootstrap**, and **JavaScript**. This project allows users to **register**, **login**, **enroll in courses**, and **learn through structured modules**, while admins can **manage courses and student data**.
+A fully functional **Online Learning Web Application** developed using **Flask (Python)**, **MySQL**, and modern **HTML, CSS, Bootstrap, and JavaScript**. This platform allows students to register, log in, browse courses, and access learning content, while admins can manage users and courses.
 
 ---
 
 ## 🚀 Features
 
-* **User Authentication** (Login / Registration / Logout)
-* **Admin Dashboard** for course management
-* **Course Enrollment System**
-* **Responsive UI** using CSS & Bootstrap
-* **MySQL Database Integration**
-* **Student Progress Tracking**
-* **Clean and Modular Flask Structure**
+* User Registration & Login (Authentication System)
+* Role-based Dashboard (Student / Admin)
+* Course Listing & Enrollment
+* Responsive UI using Bootstrap
+* Secure Password Storage
+* MySQL Database Integration
+* Modular Flask Project Structure
 
 ---
 
 ## 🛠️ Tech Stack
 
-| Layer           | Technology Used                  |
+| Layer           | Technology                       |
 | --------------- | -------------------------------- |
 | Backend         | Flask (Python)                   |
 | Frontend        | HTML, CSS, Bootstrap, JavaScript |
 | Database        | MySQL                            |
+| Styling         | Bootstrap + Custom CSS           |
 | Version Control | Git & GitHub                     |
-| Deployment      | (Add if deployed)                |
 
 ---
 
 ## 📸 Screenshots
 
-> Add your application screenshots in the **project root** or inside a **screenshots/** folder and replace the image file names below.
+> Create a folder named **screenshots/** in the project root and place your screenshots inside.
+
+### 🏠 Home Page
+
+![Home Page](screenshots/home_page.png)
 
 ### 🔐 Login Page
 
-```
 ![Login Page](screenshots/login_page.png)
-```
 
-### 🏠 Dashboard
+### 📝 Register Page
 
-```
-![Dashboard](screenshots/dashboard.png)
-```
-
-### 📚 Course Page
-
-```
-![Course Page](screenshots/course_page.png)
-```
+![Register Page](screenshots/register_page.png)
 
 ---
 
-## 📂 Project Folder Structure
+## 📂 Project Structure
 
 ```
 Project/
@@ -61,10 +55,10 @@ Project/
 │ README.md
 │
 ├── templates/
-│     ├── index.html
+│     ├── home.html
 │     ├── login.html
+│     ├── register.html
 │     ├── dashboard.html
-│     └── course.html
 │
 ├── static/
 │     ├── css/
@@ -76,7 +70,7 @@ Project/
 
 ---
 
-## ⚙️ Installation and Setup
+## ⚙️ Installation & Setup
 
 ### 1️⃣ Clone the Repository
 
@@ -93,9 +87,16 @@ python -m venv venv
 
 ### 3️⃣ Activate Virtual Environment
 
+* Windows:
+
 ```
-venv\Scripts\activate     (Windows)
-source venv/bin/activate   (Linux / Mac)
+venv\Scripts\activate
+```
+
+* Linux/Mac:
+
+```
+source venv/bin/activate
 ```
 
 ### 4️⃣ Install Dependencies
@@ -106,16 +107,22 @@ pip install -r requirements.txt
 
 ### 5️⃣ Configure Database
 
-* Create a MySQL database
-* Update DB credentials inside `app.py` or configuration file
+* Start MySQL Server
+* Create Database:
 
-### 6️⃣ Run Application
+```
+CREATE DATABASE online_learning;
+```
+
+* Update `app.py` DB credentials if required
+
+### 6️⃣ Run the Application
 
 ```
 python app.py
 ```
 
-Open in browser:
+Open in Browser:
 
 ```
 http://127.0.0.1:5000/
@@ -125,14 +132,18 @@ http://127.0.0.1:5000/
 
 ## 👤 Author
 
-Shreya Kathoke
+**Shreya Kathoke**
 Full Stack Developer
-
 
 ---
 
 ## 🤝 Contributing
 
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+Pull requests are welcome! If proposing major changes, please open an issue first to discuss your ideas.
 
 ---
+
+## ⭐ Show Your Support
+
+If you like this project, please give it a star ⭐ on GitHub! Thank you! 🙌
+
