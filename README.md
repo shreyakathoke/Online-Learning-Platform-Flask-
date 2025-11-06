@@ -47,7 +47,7 @@ A fully functional **Online Learning Web Application** developed using **Flask (
 ---
 
 ## 🎬 Live Demo  
-[![Watch Demo](https://img.youtube.com/vi/TerFRnFNaGg/0.jpg)](https://www.youtube.com/watch?v=TerFRnFNaGg&t=136s)
+(https://www.youtube.com/watch?v=TerFRnFNaGg&t=136s)
 
 ---
 
